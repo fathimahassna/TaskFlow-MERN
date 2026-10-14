@@ -1,0 +1,14 @@
+{
+  "name": "taskflow-workspace",
+  "version": "1.0.0",
+  "description": "TaskFlow - Modern Full-Stack MERN Task Management Platform",
+  "scripts": {
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "seed": "npm run seed --prefix backend",
+    "build": "npm run build --prefix frontend"
+  },
+  "keywords": ["mern", "react", "nodejs", "express", "mongodb", "task-management", "recharts", "nodemailer"],
+  "author": "TaskFlow Engineering",
+  "license": "MIT"
+}
